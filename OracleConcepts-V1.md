@@ -2613,7 +2613,47 @@ Begins with <code>STARTUP</code> and ends with <code>SHUTDOWN</code>. Each insta
 <li>Example:<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> j_purchaseorder <span class="token punctuation">(</span>
     po_document CLOB <span class="token keyword">CHECK</span> <span class="token punctuation">(</span>po_document <span class="token operator">IS</span> JSON<span class="token punctuation">)</span>
 <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
 </code></pre>
+</li>
+</ul>
+<h4 id="overview-of-lobs">Overview of LOBs</h4>
+<ul>
+<li>
+<p><strong>Internal LOBs</strong>:</p>
+<ul>
+<li><code>CLOB</code>  (text),  <code>NCLOB</code>  (Unicode),  <code>BLOB</code>  (binary).</li>
+</ul>
+</li>
+<li>
+<p><strong>External LOBs</strong>:</p>
+<ul>
+<li><code>BFILE</code>  (read-only external files).</li>
+</ul>
+</li>
+<li>
+<p><strong>SecureFiles</strong>:</p>
+<ul>
+<li>Advanced features (compression, encryption).</li>
+</ul>
+</li>
+</ul>
+<h4 id="overview-of-oracle-text">Overview of Oracle Text</h4>
+<ul>
+<li>
+<p>Full-text search for documents/web content.</p>
+</li>
+<li>
+<p>Supports mixed queries (text + structured data).</p>
+</li>
+</ul>
+<h4 id="overview-of-oracle-spatial-and-graph">Overview of Oracle Spatial and Graph</h4>
+<ul>
+<li>
+<p>Spatial data (e.g., maps with longitude/latitude).</p>
+</li>
+<li>
+<p>Graph data (social networks, semantic graphs).</p>
 </li>
 </ul>
 
